@@ -1,18 +1,15 @@
-## Getting Started
+## Exercício:
 
-Welcome to the VS Code Java world. Here is a guideline to help you get started to write Java code in Visual Studio Code.
+Implementar um jogo de super-trunfo entre 2 jogadores.
+* Cada jogador tem 6 cartas diferentes.
+* Uma rodada tem 6 jogadas ( [jogador1, carta1] vs [jogador2,carta1] , ..... ).
+* A sequência de atributos segue a ordem do slide anterior.
+* Jogada 1 -> atributo comparado: velocidade máxima.
+* Jogada 2 -> atributo comparado: cilindradas.
+* Ganha a jogada, o jogador que tiver a carta com o maior valor do atributo.
+* Mostre, ao final das 6 jogadas, quantas vitórias teve cada jogador, e quantos empates houveram.
 
-## Folder Structure
-
-The workspace contains two folders by default, where:
-
-- `src`: the folder to maintain sources
-- `lib`: the folder to maintain dependencies
-
-Meanwhile, the compiled output files will be generated in the `bin` folder by default.
-
-> If you want to customize the folder structure, open `.vscode/settings.json` and update the related settings there.
-
-## Dependency Management
-
-The `JAVA PROJECTS` view allows you to manage your dependencies. More details can be found [here](https://github.com/microsoft/vscode-java-dependency#manage-dependencies).
+##Observações:
+Este exercício foi desenvolvido para estimular a riação de classes e as interações entre elas.
+Por tal motivo, foi utilizado a classe random para sortear as cartas e atributos a serem comparados na partida. 
+Assim, demonstrando de maneira clara a resolução da partida e imprimindo as rodadas e o resultado no terminal.
